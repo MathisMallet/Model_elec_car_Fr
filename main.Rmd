@@ -1,0 +1,123 @@
+---
+title: "elec_car_model"
+author: "Mathis Mallet"
+date: "2026-01-08"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(dplyr)
+library(readxl)
+library(data.table)
+library(tidyr)
+```
+
+
+## Data treatment
+
+### Import
+```{r}
+car_df_path = "Data/nombre-de-voitures-particulieres-immatricules-par-type-de-carburant-region.csv"
+car_df_raw <- read.csv(car_df_path)
+
+fuel_df_path = "Data/export-fuel-data-result-all.xlsx"
+fuel_df_raw <- read_excel(fuel_df_path, sheet="Carburants - annuel TTC")
+
+elec_df_path = "Data/statistiques_sdes_prix_electricite_france_ue_2024_donnees.xlsx"
+elec_df_raw <- read_excel(elec_df_path, sheet="Graphique_1", range = "A2:S5")
+
+wealth_df_path = "Data/RPM2021-F18.xlsx"
+wealth_df_raw <- read_excel(wealth_df_path, sheet="figure 1", range = "A5:G23",col_names = c("region", "D1", "median", "D9", "D9onD1", "PAUVtx", "PAUVintens") )
+```
+
+### Transforms
+#### car_df
+```{r}
+unique(car_df_raw$carburant)
+```
+
+```{r}
+car_df <- car_df_raw %>%
+  mutate(date_mesure = as.integer(format(as.POSIXct(date_mesure), "%Y"))) %>%
+  rename_at("date_mesure", ~"year") %>%
+  filter(carburant == "Electrique et hydrogène")
+```
+
+
+#### fuel_df
+
+```{r}
+summary(fuel_df_raw)
+```
+
+
+```{r}
+fuel_df <- fuel_df_raw %>%
+  rowwise() %>%
+  mutate(fuel_price = 
+           mean(c_across(c(
+             'Gazole €/l ttc', 
+             'Super sans plomb 95 €/l ttc', 
+             'Super SP95 - E10 €/l ttc', 
+             "Super sans plomb 98 €/l ttc")))) %>%
+  rename_at("Date", ~"year")
+```
+
+#### elec_df
+
+```{r}
+summary(elec_df_raw)
+```
+
+
+```{r}
+elec_df <- elec_df_raw %>%
+      filter(!row_number() %in% c(1, 2)) %>%
+      rename_at("Euros/MWh", ~"type") %>%
+      pivot_longer(
+        cols = -type,
+        names_to = "year",
+        values_to = "elec_price"
+  ) %>%
+  select(-type) %>%
+  mutate(year = as.numeric(year))
+```
+
+#### wealth
+
+```{r}
+wealth_df <- wealth_df_raw %>%
+  rename_at("region", ~"libelle_region") %>%
+  mutate(libelle_region = replace(libelle_region, libelle_region == "Provence-Alpes-Côte d’Azur", "Provence-Alpes-Côte d'Azur"))
+```
+
+#### combine
+
+```{r}
+df <- car_df %>% 
+  left_join(elec_df, by = "year") %>%
+  left_join(fuel_df, by = "year") %>%
+  left_join(wealth_df, by = "libelle_region") %>%
+  filter(libelle_region != "Mayotte") 
+
+df <- df %>%
+  mutate(ln_car_elec = log(valeur)) %>%
+  mutate(ln_D9onD1 = log(D9onD1)) %>%
+  mutate(ln_median = log(median)) %>%
+  mutate(ln_price_ratio = log(elec_price/fuel_price))
+  
+
+ln(elec_share/(1-elec_share)) ~ 
+```
+
+Add elec share and pop
+
+```{r}
+temp <-filter(car_df, year==2020)
+sum(temp$valeur)
+```
+

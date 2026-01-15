@@ -1,0 +1,757 @@
+date_mesure,geocode_region,libelle_region,carburant,valeur
+2021-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Gaz et ND,5373.0
+2021-01-01T00:00:00.000,76,Occitanie,Electrique et hydrogène,14721.0
+2019-01-01T00:00:00.000,53,Bretagne,Diesel - thermique,29237.0
+2021-01-01T00:00:00.000,01,Guadeloupe,Gaz et ND,5.0
+2022-01-01T00:00:00.000,01,Guadeloupe,Essence - thermique,8935.0
+2019-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Essence - thermique,108983.0
+2021-01-01T00:00:00.000,24,Centre-Val de Loire,Diesel - thermique,11994.0
+2020-01-01T00:00:00.000,03,Guyane,Diesel - hybride NR,142.0
+2020-01-01T00:00:00.000,76,Occitanie,Hybride rechargeable,5743.0
+2021-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Diesel - thermique,30268.0
+2019-01-01T00:00:00.000,76,Occitanie,Diesel - thermique,56763.0
+2024-01-01T00:00:00.000,01,Guadeloupe,Hybride rechargeable,541.0
+2022-01-01T00:00:00.000,06,Mayotte,Diesel - hybride NR,39.0
+2021-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Electrique et hydrogène,5681.0
+2021-01-01T00:00:00.000,02,Martinique,Essence - thermique,9044.0
+2023-01-01T00:00:00.000,76,Occitanie,Essence - hybride NR,32052.0
+2022-01-01T00:00:00.000,01,Guadeloupe,Electrique et hydrogène,699.0
+2023-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Diesel - hybride NR,876.0
+2024-01-01T00:00:00.000,24,Centre-Val de Loire,Gaz et ND,1821.0
+2022-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Hybride rechargeable,14541.0
+2019-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Gaz et ND,127.0
+2021-01-01T00:00:00.000,02,Martinique,Diesel - hybride NR,228.0
+2022-01-01T00:00:00.000,53,Bretagne,Gaz et ND,2189.0
+2019-01-01T00:00:00.000,03,Guyane,Diesel - thermique,1870.0
+2020-01-01T00:00:00.000,94,Corse,Electrique et hydrogène,1144.0
+2023-01-01T00:00:00.000,28,Normandie,Essence - thermique,53521.0
+2024-01-01T00:00:00.000,76,Occitanie,Hybride rechargeable,10575.0
+2021-01-01T00:00:00.000,94,Corse,Essence - hybride NR,2385.0
+2022-01-01T00:00:00.000,02,Martinique,Diesel - hybride NR,103.0
+2021-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Hybride rechargeable,4602.0
+2020-01-01T00:00:00.000,24,Centre-Val de Loire,Diesel - thermique,17590.0
+2022-01-01T00:00:00.000,44,Grand Est,Essence - hybride NR,21369.0
+2024-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Electrique et hydrogène,10036.0
+2022-01-01T00:00:00.000,28,Normandie,Electrique et hydrogène,11533.0
+2019-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Diesel - thermique,47270.0
+2022-01-01T00:00:00.000,28,Normandie,Gaz et ND,2759.0
+2020-01-01T00:00:00.000,11,Île-de-France,Essence - hybride NR,32298.0
+2022-01-01T00:00:00.000,11,Île-de-France,Hybride rechargeable,35710.0
+2021-01-01T00:00:00.000,02,Martinique,Hybride rechargeable,400.0
+2022-01-01T00:00:00.000,76,Occitanie,Diesel - hybride NR,1713.0
+2023-01-01T00:00:00.000,02,Martinique,Essence - hybride NR,2294.0
+2019-01-01T00:00:00.000,03,Guyane,Electrique et hydrogène,20.0
+2019-01-01T00:00:00.000,24,Centre-Val de Loire,Essence - thermique,41018.0
+2022-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Diesel - thermique,31651.0
+2020-01-01T00:00:00.000,53,Bretagne,Diesel - thermique,21854.0
+2020-01-01T00:00:00.000,76,Occitanie,Gaz et ND,1467.0
+2019-01-01T00:00:00.000,76,Occitanie,Hybride rechargeable,1328.0
+2019-01-01T00:00:00.000,28,Normandie,Essence - thermique,90160.0
+2024-01-01T00:00:00.000,28,Normandie,Essence - hybride NR,33521.0
+2021-01-01T00:00:00.000,94,Corse,Hybride rechargeable,1305.0
+2019-01-01T00:00:00.000,52,Pays de la Loire,Diesel - hybride NR,442.0
+2023-01-01T00:00:00.000,28,Normandie,Gaz et ND,4396.0
+2019-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Essence - thermique,49356.0
+2023-01-01T00:00:00.000,01,Guadeloupe,Gaz et ND,19.0
+2021-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Essence - hybride NR,29484.0
+2019-01-01T00:00:00.000,24,Centre-Val de Loire,Electrique et hydrogène,1504.0
+2024-01-01T00:00:00.000,32,Hauts-de-France,Diesel - thermique,14116.0
+2022-01-01T00:00:00.000,76,Occitanie,Essence - thermique,44144.0
+2024-01-01T00:00:00.000,01,Guadeloupe,Electrique et hydrogène,837.0
+2023-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Essence - hybride NR,36112.0
+2019-01-01T00:00:00.000,94,Corse,Gaz et ND,10.0
+2020-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Diesel - thermique,57751.0
+2021-01-01T00:00:00.000,11,Île-de-France,Essence - thermique,121017.0
+2020-01-01T00:00:00.000,01,Guadeloupe,Gaz et ND,11.0
+2020-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Essence - hybride NR,12824.0
+2023-01-01T00:00:00.000,44,Grand Est,Hybride rechargeable,10703.0
+2023-01-01T00:00:00.000,02,Martinique,Gaz et ND,10.0
+2019-01-01T00:00:00.000,44,Grand Est,Electrique et hydrogène,3199.0
+2021-01-01T00:00:00.000,76,Occitanie,Gaz et ND,3939.0
+2022-01-01T00:00:00.000,06,Mayotte,Essence - hybride NR,564.0
+2023-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Electrique et hydrogène,25663.0
+2019-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Gaz et ND,85.0
+2019-01-01T00:00:00.000,02,Martinique,Hybride rechargeable,27.0
+2023-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Hybride rechargeable,12930.0
+2021-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Diesel - thermique,14653.0
+2022-01-01T00:00:00.000,04,La Réunion,Essence - hybride NR,5447.0
+2019-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Essence - hybride NR,7650.0
+2020-01-01T00:00:00.000,24,Centre-Val de Loire,Hybride rechargeable,2281.0
+2022-01-01T00:00:00.000,52,Pays de la Loire,Diesel - thermique,13604.0
+2021-01-01T00:00:00.000,44,Grand Est,Gaz et ND,3175.0
+2021-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Electrique et hydrogène,19514.0
+2019-01-01T00:00:00.000,76,Occitanie,Electrique et hydrogène,3909.0
+2019-01-01T00:00:00.000,76,Occitanie,Diesel - hybride NR,865.0
+2023-01-01T00:00:00.000,11,Île-de-France,Diesel - thermique,23697.0
+2021-01-01T00:00:00.000,01,Guadeloupe,Essence - hybride NR,1645.0
+2020-01-01T00:00:00.000,24,Centre-Val de Loire,Essence - hybride NR,4376.0
+2024-01-01T00:00:00.000,11,Île-de-France,Diesel - hybride NR,2721.0
+2022-01-01T00:00:00.000,04,La Réunion,Gaz et ND,3.0
+2022-01-01T00:00:00.000,28,Normandie,Hybride rechargeable,6478.0
+2023-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Essence - thermique,72238.0
+2023-01-01T00:00:00.000,28,Normandie,Essence - hybride NR,26197.0
+2021-01-01T00:00:00.000,52,Pays de la Loire,Diesel - hybride NR,1395.0
+2020-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Electrique et hydrogène,4101.0
+2024-01-01T00:00:00.000,02,Martinique,Essence - hybride NR,3070.0
+2023-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Gaz et ND,5455.0
+2024-01-01T00:00:00.000,06,Mayotte,Diesel - hybride NR,21.0
+2023-01-01T00:00:00.000,06,Mayotte,Diesel - hybride NR,42.0
+2021-01-01T00:00:00.000,76,Occitanie,Hybride rechargeable,10925.0
+2024-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Hybride rechargeable,17477.0
+2020-01-01T00:00:00.000,03,Guyane,Essence - hybride NR,169.0
+2023-01-01T00:00:00.000,04,La Réunion,Electrique et hydrogène,3631.0
+2023-01-01T00:00:00.000,44,Grand Est,Diesel - thermique,13229.0
+2019-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Diesel - thermique,29656.0
+2021-01-01T00:00:00.000,03,Guyane,Electrique et hydrogène,124.0
+2021-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Hybride rechargeable,17586.0
+2020-01-01T00:00:00.000,76,Occitanie,Essence - hybride NR,11713.0
+2020-01-01T00:00:00.000,06,Mayotte,Diesel - thermique,592.0
+2024-01-01T00:00:00.000,24,Centre-Val de Loire,Diesel - hybride NR,576.0
+2024-01-01T00:00:00.000,11,Île-de-France,Diesel - thermique,18397.0
+2023-01-01T00:00:00.000,53,Bretagne,Electrique et hydrogène,13885.0
+2021-01-01T00:00:00.000,52,Pays de la Loire,Electrique et hydrogène,8059.0
+2019-01-01T00:00:00.000,01,Guadeloupe,Gaz et ND,1.0
+2021-01-01T00:00:00.000,02,Martinique,Essence - hybride NR,1401.0
+2019-01-01T00:00:00.000,01,Guadeloupe,Diesel - hybride NR,33.0
+2024-01-01T00:00:00.000,04,La Réunion,Hybride rechargeable,986.0
+2023-01-01T00:00:00.000,76,Occitanie,Diesel - thermique,12686.0
+2022-01-01T00:00:00.000,24,Centre-Val de Loire,Diesel - hybride NR,901.0
+2023-01-01T00:00:00.000,52,Pays de la Loire,Diesel - hybride NR,1236.0
+2021-01-01T00:00:00.000,28,Normandie,Electrique et hydrogène,8221.0
+2021-01-01T00:00:00.000,28,Normandie,Hybride rechargeable,6231.0
+2022-01-01T00:00:00.000,28,Normandie,Essence - hybride NR,16440.0
+2019-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Hybride rechargeable,685.0
+2024-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Gaz et ND,6120.0
+2024-01-01T00:00:00.000,02,Martinique,Electrique et hydrogène,627.0
+2023-01-01T00:00:00.000,94,Corse,Essence - thermique,13220.0
+2019-01-01T00:00:00.000,32,Hauts-de-France,Diesel - hybride NR,1519.0
+2024-01-01T00:00:00.000,52,Pays de la Loire,Diesel - thermique,7502.0
+2023-01-01T00:00:00.000,52,Pays de la Loire,Diesel - thermique,10196.0
+2024-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Diesel - hybride NR,1752.0
+2021-01-01T00:00:00.000,32,Hauts-de-France,Diesel - thermique,48549.0
+2019-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Hybride rechargeable,1971.0
+2023-01-01T00:00:00.000,11,Île-de-France,Gaz et ND,7436.0
+2021-01-01T00:00:00.000,76,Occitanie,Essence - hybride NR,20448.0
+2022-01-01T00:00:00.000,11,Île-de-France,Diesel - thermique,38813.0
+2020-01-01T00:00:00.000,03,Guyane,Essence - thermique,2644.0
+2021-01-01T00:00:00.000,03,Guyane,Diesel - thermique,1082.0
+2021-01-01T00:00:00.000,04,La Réunion,Diesel - hybride NR,1129.0
+2024-01-01T00:00:00.000,06,Mayotte,Electrique et hydrogène,40.0
+2020-01-01T00:00:00.000,44,Grand Est,Essence - thermique,60168.0
+2020-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Diesel - thermique,45492.0
+2024-01-01T00:00:00.000,28,Normandie,Diesel - thermique,7598.0
+2023-01-01T00:00:00.000,24,Centre-Val de Loire,Hybride rechargeable,3995.0
+2021-01-01T00:00:00.000,11,Île-de-France,Essence - hybride NR,54496.0
+2020-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Diesel - thermique,20171.0
+2021-01-01T00:00:00.000,94,Corse,Essence - thermique,14233.0
+2022-01-01T00:00:00.000,03,Guyane,Diesel - thermique,731.0
+2023-01-01T00:00:00.000,06,Mayotte,Essence - hybride NR,699.0
+2019-01-01T00:00:00.000,53,Bretagne,Diesel - hybride NR,384.0
+2019-01-01T00:00:00.000,01,Guadeloupe,Essence - hybride NR,348.0
+2019-01-01T00:00:00.000,32,Hauts-de-France,Diesel - thermique,107412.0
+2021-01-01T00:00:00.000,03,Guyane,Essence - hybride NR,471.0
+2023-01-01T00:00:00.000,52,Pays de la Loire,Gaz et ND,3416.0
+2020-01-01T00:00:00.000,06,Mayotte,Gaz et ND,5.0
+2020-01-01T00:00:00.000,44,Grand Est,Diesel - thermique,39685.0
+2020-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Diesel - hybride NR,771.0
+2023-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Diesel - thermique,7479.0
+2019-01-01T00:00:00.000,04,La Réunion,Essence - hybride NR,1160.0
+2020-01-01T00:00:00.000,01,Guadeloupe,Diesel - thermique,3604.0
+2021-01-01T00:00:00.000,04,La Réunion,Gaz et ND,81.0
+2022-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Essence - thermique,51889.0
+2024-01-01T00:00:00.000,11,Île-de-France,Hybride rechargeable,46053.0
+2020-01-01T00:00:00.000,52,Pays de la Loire,Essence - thermique,35906.0
+2020-01-01T00:00:00.000,52,Pays de la Loire,Diesel - hybride NR,853.0
+2022-01-01T00:00:00.000,11,Île-de-France,Diesel - hybride NR,4710.0
+2020-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Hybride rechargeable,6474.0
+2019-01-01T00:00:00.000,02,Martinique,Diesel - thermique,3279.0
+2022-01-01T00:00:00.000,06,Mayotte,Essence - thermique,997.0
+2024-01-01T00:00:00.000,76,Occitanie,Gaz et ND,4692.0
+2021-01-01T00:00:00.000,04,La Réunion,Essence - hybride NR,4601.0
+2021-01-01T00:00:00.000,76,Occitanie,Diesel - thermique,27256.0
+2019-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Gaz et ND,334.0
+2021-01-01T00:00:00.000,52,Pays de la Loire,Diesel - thermique,17701.0
+2022-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Essence - thermique,66023.0
+2021-01-01T00:00:00.000,94,Corse,Diesel - hybride NR,182.0
+2022-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Essence - hybride NR,9856.0
+2020-01-01T00:00:00.000,02,Martinique,Essence - hybride NR,685.0
+2020-01-01T00:00:00.000,53,Bretagne,Essence - hybride NR,6293.0
+2022-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Diesel - hybride NR,1971.0
+2022-01-01T00:00:00.000,76,Occitanie,Essence - hybride NR,25686.0
+2023-01-01T00:00:00.000,28,Normandie,Diesel - hybride NR,1219.0
+2019-01-01T00:00:00.000,11,Île-de-France,Diesel - thermique,135466.0
+2020-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Essence - thermique,30572.0
+2021-01-01T00:00:00.000,52,Pays de la Loire,Gaz et ND,2172.0
+2020-01-01T00:00:00.000,03,Guyane,Electrique et hydrogène,44.0
+2021-01-01T00:00:00.000,06,Mayotte,Diesel - thermique,483.0
+2023-01-01T00:00:00.000,03,Guyane,Diesel - hybride NR,75.0
+2019-01-01T00:00:00.000,94,Corse,Essence - thermique,23241.0
+2022-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Electrique et hydrogène,25223.0
+2022-01-01T00:00:00.000,44,Grand Est,Essence - thermique,42302.0
+2023-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Essence - hybride NR,31871.0
+2020-01-01T00:00:00.000,52,Pays de la Loire,Electrique et hydrogène,5879.0
+2021-01-01T00:00:00.000,06,Mayotte,Gaz et ND,6.0
+2023-01-01T00:00:00.000,32,Hauts-de-France,Diesel - thermique,21857.0
+2019-01-01T00:00:00.000,76,Occitanie,Gaz et ND,152.0
+2022-01-01T00:00:00.000,53,Bretagne,Essence - thermique,23357.0
+2024-01-01T00:00:00.000,24,Centre-Val de Loire,Essence - thermique,14845.0
+2019-01-01T00:00:00.000,06,Mayotte,Essence - hybride NR,1.0
+2021-01-01T00:00:00.000,44,Grand Est,Essence - hybride NR,18317.0
+2022-01-01T00:00:00.000,44,Grand Est,Diesel - thermique,18138.0
+2020-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Hybride rechargeable,2803.0
+2024-01-01T00:00:00.000,24,Centre-Val de Loire,Diesel - thermique,4546.0
+2023-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Diesel - hybride NR,2659.0
+2020-01-01T00:00:00.000,32,Hauts-de-France,Diesel - hybride NR,4000.0
+2024-01-01T00:00:00.000,52,Pays de la Loire,Diesel - hybride NR,785.0
+2019-01-01T00:00:00.000,02,Martinique,Electrique et hydrogène,95.0
+2023-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Electrique et hydrogène,28906.0
+2021-01-01T00:00:00.000,52,Pays de la Loire,Hybride rechargeable,5480.0
+2020-01-01T00:00:00.000,02,Martinique,Diesel - hybride NR,91.0
+2022-01-01T00:00:00.000,06,Mayotte,Gaz et ND,1.0
+2024-01-01T00:00:00.000,53,Bretagne,Electrique et hydrogène,13624.0
+2024-01-01T00:00:00.000,24,Centre-Val de Loire,Electrique et hydrogène,9401.0
+2022-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Essence - hybride NR,29410.0
+2021-01-01T00:00:00.000,44,Grand Est,Hybride rechargeable,10090.0
+2020-01-01T00:00:00.000,04,La Réunion,Gaz et ND,24.0
+2020-01-01T00:00:00.000,53,Bretagne,Diesel - hybride NR,760.0
+2023-01-01T00:00:00.000,94,Corse,Diesel - hybride NR,160.0
+2022-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Hybride rechargeable,10667.0
+2019-01-01T00:00:00.000,04,La Réunion,Gaz et ND,0.0
+2021-01-01T00:00:00.000,32,Hauts-de-France,Essence - thermique,91102.0
+2023-01-01T00:00:00.000,76,Occitanie,Electrique et hydrogène,28108.0
+2024-01-01T00:00:00.000,04,La Réunion,Diesel - hybride NR,163.0
+2020-01-01T00:00:00.000,01,Guadeloupe,Electrique et hydrogène,288.0
+2021-01-01T00:00:00.000,24,Centre-Val de Loire,Diesel - hybride NR,1266.0
+2022-01-01T00:00:00.000,01,Guadeloupe,Hybride rechargeable,430.0
+2023-01-01T00:00:00.000,94,Corse,Hybride rechargeable,2208.0
+2023-01-01T00:00:00.000,01,Guadeloupe,Diesel - thermique,1298.0
+2023-01-01T00:00:00.000,02,Martinique,Essence - thermique,10112.0
+2019-01-01T00:00:00.000,03,Guyane,Gaz et ND,0.0
+2024-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Essence - thermique,44990.0
+2024-01-01T00:00:00.000,11,Île-de-France,Essence - hybride NR,137335.0
+2023-01-01T00:00:00.000,06,Mayotte,Diesel - thermique,206.0
+2022-01-01T00:00:00.000,76,Occitanie,Hybride rechargeable,9510.0
+2020-01-01T00:00:00.000,94,Corse,Essence - hybride NR,891.0
+2019-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Electrique et hydrogène,1262.0
+2020-01-01T00:00:00.000,03,Guyane,Diesel - thermique,1566.0
+2024-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Essence - hybride NR,50395.0
+2022-01-01T00:00:00.000,76,Occitanie,Diesel - thermique,18690.0
+2023-01-01T00:00:00.000,03,Guyane,Gaz et ND,3.0
+2022-01-01T00:00:00.000,03,Guyane,Electrique et hydrogène,91.0
+2022-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Gaz et ND,4754.0
+2022-01-01T00:00:00.000,52,Pays de la Loire,Electrique et hydrogène,10673.0
+2021-01-01T00:00:00.000,53,Bretagne,Electrique et hydrogène,7541.0
+2020-01-01T00:00:00.000,04,La Réunion,Electrique et hydrogène,1047.0
+2022-01-01T00:00:00.000,24,Centre-Val de Loire,Electrique et hydrogène,6692.0
+2024-01-01T00:00:00.000,06,Mayotte,Diesel - thermique,237.0
+2020-01-01T00:00:00.000,24,Centre-Val de Loire,Electrique et hydrogène,3799.0
+2023-01-01T00:00:00.000,32,Hauts-de-France,Hybride rechargeable,15271.0
+2021-01-01T00:00:00.000,06,Mayotte,Essence - hybride NR,506.0
+2019-01-01T00:00:00.000,06,Mayotte,Hybride rechargeable,0.0
+2023-01-01T00:00:00.000,53,Bretagne,Diesel - thermique,8493.0
+2023-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Hybride rechargeable,4923.0
+2020-01-01T00:00:00.000,32,Hauts-de-France,Essence - hybride NR,16173.0
+2024-01-01T00:00:00.000,28,Normandie,Diesel - hybride NR,714.0
+2024-01-01T00:00:00.000,44,Grand Est,Diesel - thermique,9528.0
+2019-01-01T00:00:00.000,06,Mayotte,Diesel - thermique,641.0
+2022-01-01T00:00:00.000,06,Mayotte,Electrique et hydrogène,67.0
+2020-01-01T00:00:00.000,06,Mayotte,Essence - hybride NR,113.0
+2021-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Gaz et ND,4541.0
+2020-01-01T00:00:00.000,32,Hauts-de-France,Electrique et hydrogène,9014.0
+2020-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Gaz et ND,2090.0
+2020-01-01T00:00:00.000,94,Corse,Diesel - thermique,5602.0
+2023-01-01T00:00:00.000,44,Grand Est,Diesel - hybride NR,1792.0
+2021-01-01T00:00:00.000,01,Guadeloupe,Hybride rechargeable,373.0
+2022-01-01T00:00:00.000,44,Grand Est,Gaz et ND,3563.0
+2022-01-01T00:00:00.000,32,Hauts-de-France,Gaz et ND,7539.0
+2021-01-01T00:00:00.000,03,Guyane,Gaz et ND,1.0
+2020-01-01T00:00:00.000,52,Pays de la Loire,Essence - hybride NR,7480.0
+2024-01-01T00:00:00.000,02,Martinique,Hybride rechargeable,440.0
+2021-01-01T00:00:00.000,28,Normandie,Gaz et ND,2147.0
+2022-01-01T00:00:00.000,03,Guyane,Diesel - hybride NR,80.0
+2022-01-01T00:00:00.000,02,Martinique,Gaz et ND,0.0
+2021-01-01T00:00:00.000,28,Normandie,Diesel - thermique,20898.0
+2021-01-01T00:00:00.000,52,Pays de la Loire,Essence - thermique,31027.0
+2022-01-01T00:00:00.000,04,La Réunion,Electrique et hydrogène,2808.0
+2023-01-01T00:00:00.000,76,Occitanie,Diesel - hybride NR,1596.0
+2024-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Essence - hybride NR,18730.0
+2024-01-01T00:00:00.000,06,Mayotte,Hybride rechargeable,11.0
+2023-01-01T00:00:00.000,11,Île-de-France,Diesel - hybride NR,3925.0
+2021-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Essence - thermique,60834.0
+2021-01-01T00:00:00.000,02,Martinique,Electrique et hydrogène,479.0
+2022-01-01T00:00:00.000,94,Corse,Electrique et hydrogène,2390.0
+2023-01-01T00:00:00.000,01,Guadeloupe,Hybride rechargeable,363.0
+2022-01-01T00:00:00.000,94,Corse,Essence - thermique,8657.0
+2020-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Hybride rechargeable,5765.0
+2019-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Diesel - hybride NR,938.0
+2022-01-01T00:00:00.000,02,Martinique,Essence - thermique,9398.0
+2022-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Essence - hybride NR,33210.0
+2023-01-01T00:00:00.000,24,Centre-Val de Loire,Essence - hybride NR,12345.0
+2024-01-01T00:00:00.000,06,Mayotte,Essence - thermique,915.0
+2023-01-01T00:00:00.000,24,Centre-Val de Loire,Diesel - thermique,5948.0
+2019-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Hybride rechargeable,1216.0
+2019-01-01T00:00:00.000,44,Grand Est,Gaz et ND,179.0
+2023-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Hybride rechargeable,11384.0
+2020-01-01T00:00:00.000,44,Grand Est,Hybride rechargeable,5770.0
+2020-01-01T00:00:00.000,28,Normandie,Electrique et hydrogène,6111.0
+2024-01-01T00:00:00.000,52,Pays de la Loire,Gaz et ND,2788.0
+2020-01-01T00:00:00.000,11,Île-de-France,Hybride rechargeable,20024.0
+2019-01-01T00:00:00.000,52,Pays de la Loire,Diesel - thermique,34339.0
+2023-01-01T00:00:00.000,04,La Réunion,Essence - hybride NR,6266.0
+2024-01-01T00:00:00.000,44,Grand Est,Hybride rechargeable,9899.0
+2023-01-01T00:00:00.000,28,Normandie,Hybride rechargeable,7922.0
+2022-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Electrique et hydrogène,21551.0
+2019-01-01T00:00:00.000,01,Guadeloupe,Hybride rechargeable,53.0
+2024-01-01T00:00:00.000,44,Grand Est,Essence - thermique,35051.0
+2023-01-01T00:00:00.000,06,Mayotte,Gaz et ND,4.0
+2021-01-01T00:00:00.000,53,Bretagne,Hybride rechargeable,4471.0
+2022-01-01T00:00:00.000,06,Mayotte,Diesel - thermique,318.0
+2021-01-01T00:00:00.000,32,Hauts-de-France,Electrique et hydrogène,13898.0
+2020-01-01T00:00:00.000,04,La Réunion,Essence - thermique,12881.0
+2024-01-01T00:00:00.000,04,La Réunion,Electrique et hydrogène,2832.0
+2021-01-01T00:00:00.000,06,Mayotte,Essence - thermique,1034.0
+2020-01-01T00:00:00.000,03,Guyane,Gaz et ND,0.0
+2023-01-01T00:00:00.000,94,Corse,Diesel - thermique,2942.0
+2024-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Diesel - hybride NR,892.0
+2021-01-01T00:00:00.000,02,Martinique,Diesel - thermique,1738.0
+2024-01-01T00:00:00.000,06,Mayotte,Gaz et ND,8.0
+2024-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Hybride rechargeable,4555.0
+2021-01-01T00:00:00.000,28,Normandie,Essence - thermique,41381.0
+2020-01-01T00:00:00.000,28,Normandie,Diesel - thermique,30740.0
+2024-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Hybride rechargeable,9520.0
+2022-01-01T00:00:00.000,44,Grand Est,Hybride rechargeable,8782.0
+2022-01-01T00:00:00.000,32,Hauts-de-France,Hybride rechargeable,12856.0
+2024-01-01T00:00:00.000,28,Normandie,Electrique et hydrogène,13858.0
+2022-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Diesel - thermique,20544.0
+2024-01-01T00:00:00.000,28,Normandie,Hybride rechargeable,6256.0
+2022-01-01T00:00:00.000,01,Guadeloupe,Gaz et ND,0.0
+2022-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Hybride rechargeable,4051.0
+2023-01-01T00:00:00.000,53,Bretagne,Gaz et ND,2969.0
+2020-01-01T00:00:00.000,28,Normandie,Essence - thermique,45105.0
+2019-01-01T00:00:00.000,76,Occitanie,Essence - thermique,99706.0
+2024-01-01T00:00:00.000,53,Bretagne,Essence - thermique,19766.0
+2019-01-01T00:00:00.000,01,Guadeloupe,Essence - thermique,12216.0
+2022-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Essence - thermique,22103.0
+2022-01-01T00:00:00.000,32,Hauts-de-France,Electrique et hydrogène,18328.0
+2021-01-01T00:00:00.000,06,Mayotte,Diesel - hybride NR,66.0
+2022-01-01T00:00:00.000,24,Centre-Val de Loire,Hybride rechargeable,3098.0
+2022-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Diesel - hybride NR,1447.0
+2021-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Gaz et ND,1527.0
+2022-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Gaz et ND,5046.0
+2022-01-01T00:00:00.000,28,Normandie,Essence - thermique,43508.0
+2023-01-01T00:00:00.000,94,Corse,Essence - hybride NR,3830.0
+2023-01-01T00:00:00.000,03,Guyane,Essence - hybride NR,951.0
+2019-01-01T00:00:00.000,53,Bretagne,Electrique et hydrogène,1759.0
+2021-01-01T00:00:00.000,24,Centre-Val de Loire,Hybride rechargeable,3760.0
+2023-01-01T00:00:00.000,28,Normandie,Diesel - thermique,9085.0
+2021-01-01T00:00:00.000,53,Bretagne,Diesel - hybride NR,1238.0
+2024-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Gaz et ND,2039.0
+2022-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Diesel - hybride NR,858.0
+2021-01-01T00:00:00.000,11,Île-de-France,Diesel - hybride NR,6214.0
+2023-01-01T00:00:00.000,24,Centre-Val de Loire,Essence - thermique,19679.0
+2023-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Hybride rechargeable,18713.0
+2020-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Electrique et hydrogène,14864.0
+2023-01-01T00:00:00.000,24,Centre-Val de Loire,Gaz et ND,2061.0
+2022-01-01T00:00:00.000,03,Guyane,Essence - hybride NR,667.0
+2024-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Essence - thermique,18495.0
+2022-01-01T00:00:00.000,03,Guyane,Gaz et ND,3.0
+2024-01-01T00:00:00.000,44,Grand Est,Diesel - hybride NR,1334.0
+2019-01-01T00:00:00.000,28,Normandie,Diesel - thermique,48821.0
+2021-01-01T00:00:00.000,44,Grand Est,Diesel - thermique,25804.0
+2021-01-01T00:00:00.000,24,Centre-Val de Loire,Electrique et hydrogène,5175.0
+2021-01-01T00:00:00.000,04,La Réunion,Hybride rechargeable,890.0
+2020-01-01T00:00:00.000,06,Mayotte,Hybride rechargeable,12.0
+2022-01-01T00:00:00.000,28,Normandie,Diesel - hybride NR,1101.0
+2024-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Diesel - thermique,7254.0
+2024-01-01T00:00:00.000,53,Bretagne,Diesel - thermique,6099.0
+2021-01-01T00:00:00.000,32,Hauts-de-France,Gaz et ND,7588.0
+2024-01-01T00:00:00.000,32,Hauts-de-France,Essence - thermique,70564.0
+2021-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Diesel - thermique,19747.0
+2024-01-01T00:00:00.000,24,Centre-Val de Loire,Hybride rechargeable,3756.0
+2022-01-01T00:00:00.000,52,Pays de la Loire,Essence - hybride NR,15766.0
+2019-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Essence - hybride NR,10517.0
+2020-01-01T00:00:00.000,24,Centre-Val de Loire,Essence - thermique,24703.0
+2021-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Diesel - hybride NR,4024.0
+2021-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Hybride rechargeable,11753.0
+2020-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Diesel - hybride NR,1828.0
+2020-01-01T00:00:00.000,11,Île-de-France,Electrique et hydrogène,19097.0
+2022-01-01T00:00:00.000,53,Bretagne,Hybride rechargeable,3985.0
+2023-01-01T00:00:00.000,02,Martinique,Diesel - thermique,660.0
+2020-01-01T00:00:00.000,02,Martinique,Essence - thermique,8108.0
+2019-01-01T00:00:00.000,53,Bretagne,Gaz et ND,116.0
+2024-01-01T00:00:00.000,94,Corse,Diesel - thermique,1566.0
+2024-01-01T00:00:00.000,76,Occitanie,Essence - hybride NR,43061.0
+2024-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Diesel - hybride NR,1182.0
+2021-01-01T00:00:00.000,76,Occitanie,Essence - thermique,51365.0
+2021-01-01T00:00:00.000,24,Centre-Val de Loire,Essence - thermique,21131.0
+2023-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Diesel - thermique,10041.0
+2021-01-01T00:00:00.000,01,Guadeloupe,Essence - thermique,7968.0
+2019-01-01T00:00:00.000,52,Pays de la Loire,Essence - thermique,55326.0
+2021-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Essence - hybride NR,23135.0
+2022-01-01T00:00:00.000,03,Guyane,Essence - thermique,3625.0
+2024-01-01T00:00:00.000,52,Pays de la Loire,Hybride rechargeable,5058.0
+2021-01-01T00:00:00.000,94,Corse,Electrique et hydrogène,2054.0
+2024-01-01T00:00:00.000,94,Corse,Diesel - hybride NR,77.0
+2023-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Electrique et hydrogène,10047.0
+2020-01-01T00:00:00.000,02,Martinique,Hybride rechargeable,164.0
+2019-01-01T00:00:00.000,06,Mayotte,Essence - thermique,1174.0
+2024-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Essence - hybride NR,43762.0
+2019-01-01T00:00:00.000,53,Bretagne,Essence - thermique,54519.0
+2020-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Diesel - thermique,31425.0
+2019-01-01T00:00:00.000,11,Île-de-France,Essence - hybride NR,23038.0
+2019-01-01T00:00:00.000,02,Martinique,Gaz et ND,0.0
+2024-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Essence - thermique,53924.0
+2019-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Electrique et hydrogène,3370.0
+2020-01-01T00:00:00.000,28,Normandie,Essence - hybride NR,7267.0
+2020-01-01T00:00:00.000,94,Corse,Essence - thermique,12528.0
+2019-01-01T00:00:00.000,02,Martinique,Essence - hybride NR,382.0
+2020-01-01T00:00:00.000,53,Bretagne,Essence - thermique,34271.0
+2024-01-01T00:00:00.000,76,Occitanie,Diesel - hybride NR,1185.0
+2023-01-01T00:00:00.000,06,Mayotte,Essence - thermique,1041.0
+2021-01-01T00:00:00.000,94,Corse,Diesel - thermique,7301.0
+2024-01-01T00:00:00.000,53,Bretagne,Gaz et ND,2725.0
+2021-01-01T00:00:00.000,76,Occitanie,Diesel - hybride NR,2665.0
+2020-01-01T00:00:00.000,02,Martinique,Gaz et ND,6.0
+2021-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Hybride rechargeable,11835.0
+2024-01-01T00:00:00.000,03,Guyane,Diesel - hybride NR,18.0
+2024-01-01T00:00:00.000,01,Guadeloupe,Essence - thermique,7114.0
+2020-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Gaz et ND,1612.0
+2022-01-01T00:00:00.000,11,Île-de-France,Gaz et ND,6887.0
+2019-01-01T00:00:00.000,04,La Réunion,Diesel - thermique,11666.0
+2023-01-01T00:00:00.000,32,Hauts-de-France,Essence - thermique,79512.0
+2021-01-01T00:00:00.000,04,La Réunion,Essence - thermique,13313.0
+2019-01-01T00:00:00.000,52,Pays de la Loire,Gaz et ND,178.0
+2020-01-01T00:00:00.000,32,Hauts-de-France,Diesel - thermique,67701.0
+2019-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Essence - hybride NR,2820.0
+2024-01-01T00:00:00.000,28,Normandie,Essence - thermique,37775.0
+2022-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Hybride rechargeable,9443.0
+2019-01-01T00:00:00.000,32,Hauts-de-France,Essence - thermique,194375.0
+2024-01-01T00:00:00.000,94,Corse,Essence - hybride NR,6137.0
+2024-01-01T00:00:00.000,52,Pays de la Loire,Electrique et hydrogène,16308.0
+2022-01-01T00:00:00.000,52,Pays de la Loire,Hybride rechargeable,4788.0
+2023-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Essence - thermique,56501.0
+2024-01-01T00:00:00.000,06,Mayotte,Essence - hybride NR,733.0
+2020-01-01T00:00:00.000,06,Mayotte,Diesel - hybride NR,76.0
+2024-01-01T00:00:00.000,76,Occitanie,Electrique et hydrogène,27683.0
+2020-01-01T00:00:00.000,03,Guyane,Hybride rechargeable,51.0
+2021-01-01T00:00:00.000,32,Hauts-de-France,Essence - hybride NR,27397.0
+2024-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Electrique et hydrogène,37032.0
+2023-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Gaz et ND,7359.0
+2019-01-01T00:00:00.000,03,Guyane,Essence - thermique,3442.0
+2019-01-01T00:00:00.000,94,Corse,Diesel - thermique,10738.0
+2021-01-01T00:00:00.000,03,Guyane,Essence - thermique,3512.0
+2019-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Gaz et ND,230.0
+2020-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Hybride rechargeable,9712.0
+2024-01-01T00:00:00.000,53,Bretagne,Diesel - hybride NR,506.0
+2019-01-01T00:00:00.000,94,Corse,Essence - hybride NR,498.0
+2019-01-01T00:00:00.000,44,Grand Est,Hybride rechargeable,1395.0
+2020-01-01T00:00:00.000,11,Île-de-France,Gaz et ND,2417.0
+2019-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Electrique et hydrogène,4913.0
+2019-01-01T00:00:00.000,32,Hauts-de-France,Gaz et ND,356.0
+2022-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Gaz et ND,1649.0
+2019-01-01T00:00:00.000,03,Guyane,Diesel - hybride NR,13.0
+2023-01-01T00:00:00.000,06,Mayotte,Hybride rechargeable,15.0
+2021-01-01T00:00:00.000,11,Île-de-France,Hybride rechargeable,36328.0
+2023-01-01T00:00:00.000,32,Hauts-de-France,Gaz et ND,8812.0
+2019-01-01T00:00:00.000,04,La Réunion,Electrique et hydrogène,518.0
+2019-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Diesel - thermique,64450.0
+2024-01-01T00:00:00.000,32,Hauts-de-France,Electrique et hydrogène,25554.0
+2022-01-01T00:00:00.000,53,Bretagne,Essence - hybride NR,11534.0
+2020-01-01T00:00:00.000,06,Mayotte,Electrique et hydrogène,0.0
+2020-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Gaz et ND,602.0
+2020-01-01T00:00:00.000,28,Normandie,Hybride rechargeable,2953.0
+2021-01-01T00:00:00.000,94,Corse,Gaz et ND,1150.0
+2023-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Gaz et ND,6927.0
+2022-01-01T00:00:00.000,44,Grand Est,Electrique et hydrogène,18066.0
+2020-01-01T00:00:00.000,24,Centre-Val de Loire,Gaz et ND,506.0
+2021-01-01T00:00:00.000,11,Île-de-France,Gaz et ND,7742.0
+2019-01-01T00:00:00.000,28,Normandie,Essence - hybride NR,5043.0
+2023-01-01T00:00:00.000,76,Occitanie,Essence - thermique,48702.0
+2022-01-01T00:00:00.000,28,Normandie,Diesel - thermique,11693.0
+2021-01-01T00:00:00.000,01,Guadeloupe,Electrique et hydrogène,555.0
+2023-01-01T00:00:00.000,11,Île-de-France,Hybride rechargeable,50456.0
+2022-01-01T00:00:00.000,04,La Réunion,Essence - thermique,11871.0
+2021-01-01T00:00:00.000,24,Centre-Val de Loire,Gaz et ND,1351.0
+2022-01-01T00:00:00.000,24,Centre-Val de Loire,Essence - hybride NR,8958.0
+2023-01-01T00:00:00.000,01,Guadeloupe,Essence - thermique,9518.0
+2024-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Electrique et hydrogène,28310.0
+2023-01-01T00:00:00.000,01,Guadeloupe,Diesel - hybride NR,81.0
+2020-01-01T00:00:00.000,44,Grand Est,Gaz et ND,1232.0
+2019-01-01T00:00:00.000,94,Corse,Hybride rechargeable,89.0
+2023-01-01T00:00:00.000,11,Île-de-France,Electrique et hydrogène,54010.0
+2024-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Hybride rechargeable,12939.0
+2019-01-01T00:00:00.000,01,Guadeloupe,Electrique et hydrogène,124.0
+2020-01-01T00:00:00.000,01,Guadeloupe,Essence - hybride NR,541.0
+2021-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Essence - thermique,54558.0
+2024-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Diesel - hybride NR,595.0
+2024-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Diesel - thermique,11573.0
+2023-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Essence - hybride NR,47539.0
+2021-01-01T00:00:00.000,44,Grand Est,Essence - thermique,51053.0
+2023-01-01T00:00:00.000,11,Île-de-France,Essence - thermique,123512.0
+2019-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Diesel - hybride NR,492.0
+2024-01-01T00:00:00.000,03,Guyane,Diesel - thermique,522.0
+2022-01-01T00:00:00.000,11,Île-de-France,Essence - thermique,108407.0
+2020-01-01T00:00:00.000,94,Corse,Diesel - hybride NR,113.0
+2020-01-01T00:00:00.000,32,Hauts-de-France,Gaz et ND,2214.0
+2024-01-01T00:00:00.000,03,Guyane,Gaz et ND,1.0
+2020-01-01T00:00:00.000,32,Hauts-de-France,Essence - thermique,103543.0
+2023-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Diesel - hybride NR,1250.0
+2024-01-01T00:00:00.000,32,Hauts-de-France,Gaz et ND,9677.0
+2022-01-01T00:00:00.000,94,Corse,Diesel - thermique,3357.0
+2019-01-01T00:00:00.000,94,Corse,Diesel - hybride NR,54.0
+2023-01-01T00:00:00.000,03,Guyane,Hybride rechargeable,142.0
+2024-01-01T00:00:00.000,03,Guyane,Essence - hybride NR,1386.0
+2019-01-01T00:00:00.000,02,Martinique,Diesel - hybride NR,29.0
+2023-01-01T00:00:00.000,04,La Réunion,Essence - thermique,11418.0
+2019-01-01T00:00:00.000,24,Centre-Val de Loire,Diesel - hybride NR,363.0
+2019-01-01T00:00:00.000,44,Grand Est,Diesel - thermique,61758.0
+2024-01-01T00:00:00.000,04,La Réunion,Essence - thermique,9056.0
+2022-01-01T00:00:00.000,02,Martinique,Hybride rechargeable,335.0
+2020-01-01T00:00:00.000,02,Martinique,Diesel - thermique,2286.0
+2024-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Gaz et ND,5403.0
+2023-01-01T00:00:00.000,04,La Réunion,Diesel - thermique,4834.0
+2021-01-01T00:00:00.000,01,Guadeloupe,Diesel - hybride NR,343.0
+2022-01-01T00:00:00.000,11,Île-de-France,Electrique et hydrogène,33719.0
+2024-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Essence - thermique,37088.0
+2020-01-01T00:00:00.000,04,La Réunion,Diesel - thermique,7839.0
+2024-01-01T00:00:00.000,53,Bretagne,Hybride rechargeable,4345.0
+2019-01-01T00:00:00.000,28,Normandie,Hybride rechargeable,598.0
+2020-01-01T00:00:00.000,11,Île-de-France,Diesel - hybride NR,4047.0
+2019-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Essence - thermique,104592.0
+2021-01-01T00:00:00.000,06,Mayotte,Electrique et hydrogène,13.0
+2023-01-01T00:00:00.000,44,Grand Est,Essence - thermique,44773.0
+2022-01-01T00:00:00.000,04,La Réunion,Diesel - hybride NR,841.0
+2023-01-01T00:00:00.000,52,Pays de la Loire,Essence - hybride NR,19480.0
+2021-01-01T00:00:00.000,04,La Réunion,Diesel - thermique,7447.0
+2019-01-01T00:00:00.000,11,Île-de-France,Gaz et ND,389.0
+2022-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Electrique et hydrogène,18142.0
+2019-01-01T00:00:00.000,03,Guyane,Essence - hybride NR,111.0
+2024-01-01T00:00:00.000,76,Occitanie,Diesel - thermique,10020.0
+2023-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Essence - thermique,47446.0
+2019-01-01T00:00:00.000,01,Guadeloupe,Diesel - thermique,4699.0
+2024-01-01T00:00:00.000,32,Hauts-de-France,Hybride rechargeable,12758.0
+2019-01-01T00:00:00.000,28,Normandie,Electrique et hydrogène,1877.0
+2022-01-01T00:00:00.000,01,Guadeloupe,Essence - hybride NR,2406.0
+2021-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Essence - hybride NR,21743.0
+2019-01-01T00:00:00.000,44,Grand Est,Essence - thermique,98862.0
+2020-01-01T00:00:00.000,04,La Réunion,Essence - hybride NR,1798.0
+2023-01-01T00:00:00.000,28,Normandie,Electrique et hydrogène,17297.0
+2023-01-01T00:00:00.000,94,Corse,Gaz et ND,1009.0
+2024-01-01T00:00:00.000,03,Guyane,Electrique et hydrogène,132.0
+2019-01-01T00:00:00.000,53,Bretagne,Essence - hybride NR,4108.0
+2020-01-01T00:00:00.000,04,La Réunion,Hybride rechargeable,314.0
+2022-01-01T00:00:00.000,24,Centre-Val de Loire,Gaz et ND,1410.0
+2019-01-01T00:00:00.000,52,Pays de la Loire,Essence - hybride NR,5354.0
+2019-01-01T00:00:00.000,24,Centre-Val de Loire,Diesel - thermique,25360.0
+2020-01-01T00:00:00.000,94,Corse,Gaz et ND,238.0
+2019-01-01T00:00:00.000,52,Pays de la Loire,Electrique et hydrogène,2111.0
+2020-01-01T00:00:00.000,44,Grand Est,Electrique et hydrogène,9151.0
+2023-01-01T00:00:00.000,02,Martinique,Hybride rechargeable,370.0
+2019-01-01T00:00:00.000,76,Occitanie,Essence - hybride NR,7307.0
+2023-01-01T00:00:00.000,44,Grand Est,Essence - hybride NR,27655.0
+2024-01-01T00:00:00.000,01,Guadeloupe,Essence - hybride NR,4252.0
+2020-01-01T00:00:00.000,94,Corse,Hybride rechargeable,422.0
+2021-01-01T00:00:00.000,53,Bretagne,Essence - thermique,29092.0
+2023-01-01T00:00:00.000,94,Corse,Electrique et hydrogène,4812.0
+2021-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Essence - thermique,72847.0
+2024-01-01T00:00:00.000,02,Martinique,Diesel - hybride NR,41.0
+2023-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Diesel - hybride NR,1737.0
+2023-01-01T00:00:00.000,01,Guadeloupe,Essence - hybride NR,2747.0
+2023-01-01T00:00:00.000,01,Guadeloupe,Electrique et hydrogène,838.0
+2022-01-01T00:00:00.000,06,Mayotte,Hybride rechargeable,17.0
+2024-01-01T00:00:00.000,32,Hauts-de-France,Diesel - hybride NR,1244.0
+2021-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Gaz et ND,3820.0
+2023-01-01T00:00:00.000,32,Hauts-de-France,Diesel - hybride NR,3209.0
+2020-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Electrique et hydrogène,10022.0
+2024-01-01T00:00:00.000,03,Guyane,Essence - thermique,2936.0
+2022-01-01T00:00:00.000,32,Hauts-de-France,Diesel - thermique,32845.0
+2021-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Electrique et hydrogène,20680.0
+2023-01-01T00:00:00.000,24,Centre-Val de Loire,Electrique et hydrogène,9701.0
+2020-01-01T00:00:00.000,52,Pays de la Loire,Diesel - thermique,25007.0
+2024-01-01T00:00:00.000,32,Hauts-de-France,Essence - hybride NR,61025.0
+2023-01-01T00:00:00.000,02,Martinique,Electrique et hydrogène,684.0
+2020-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Essence - hybride NR,14165.0
+2020-01-01T00:00:00.000,53,Bretagne,Gaz et ND,648.0
+2021-01-01T00:00:00.000,11,Île-de-France,Electrique et hydrogène,27725.0
+2023-01-01T00:00:00.000,04,La Réunion,Diesel - hybride NR,334.0
+2019-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Essence - thermique,141105.0
+2024-01-01T00:00:00.000,04,La Réunion,Essence - hybride NR,7771.0
+2020-01-01T00:00:00.000,53,Bretagne,Electrique et hydrogène,5398.0
+2022-01-01T00:00:00.000,02,Martinique,Diesel - thermique,1085.0
+2023-01-01T00:00:00.000,24,Centre-Val de Loire,Diesel - hybride NR,809.0
+2024-01-01T00:00:00.000,76,Occitanie,Essence - thermique,37888.0
+2023-01-01T00:00:00.000,52,Pays de la Loire,Electrique et hydrogène,15671.0
+2021-01-01T00:00:00.000,03,Guyane,Diesel - hybride NR,197.0
+2021-01-01T00:00:00.000,44,Grand Est,Diesel - hybride NR,3226.0
+2023-01-01T00:00:00.000,06,Mayotte,Electrique et hydrogène,57.0
+2022-01-01T00:00:00.000,04,La Réunion,Hybride rechargeable,943.0
+2022-01-01T00:00:00.000,53,Bretagne,Electrique et hydrogène,10162.0
+2020-01-01T00:00:00.000,76,Occitanie,Essence - thermique,60901.0
+2019-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Hybride rechargeable,1628.0
+2022-01-01T00:00:00.000,01,Guadeloupe,Diesel - thermique,1795.0
+2020-01-01T00:00:00.000,76,Occitanie,Electrique et hydrogène,10307.0
+2022-01-01T00:00:00.000,24,Centre-Val de Loire,Essence - thermique,18169.0
+2021-01-01T00:00:00.000,24,Centre-Val de Loire,Essence - hybride NR,7386.0
+2020-01-01T00:00:00.000,11,Île-de-France,Diesel - thermique,93184.0
+2019-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Diesel - hybride NR,859.0
+2019-01-01T00:00:00.000,11,Île-de-France,Electrique et hydrogène,10207.0
+2019-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Electrique et hydrogène,5541.0
+2021-01-01T00:00:00.000,06,Mayotte,Hybride rechargeable,37.0
+2020-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Electrique et hydrogène,12007.0
+2023-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Electrique et hydrogène,37541.0
+2021-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Electrique et hydrogène,14916.0
+2022-01-01T00:00:00.000,32,Hauts-de-France,Essence - thermique,73759.0
+2022-01-01T00:00:00.000,44,Grand Est,Diesel - hybride NR,1975.0
+2024-01-01T00:00:00.000,02,Martinique,Diesel - thermique,677.0
+2019-01-01T00:00:00.000,11,Île-de-France,Essence - thermique,215564.0
+2020-01-01T00:00:00.000,02,Martinique,Electrique et hydrogène,246.0
+2022-01-01T00:00:00.000,94,Corse,Hybride rechargeable,1659.0
+2019-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Diesel - thermique,87321.0
+2019-01-01T00:00:00.000,04,La Réunion,Hybride rechargeable,105.0
+2022-01-01T00:00:00.000,03,Guyane,Hybride rechargeable,143.0
+2021-01-01T00:00:00.000,53,Bretagne,Diesel - thermique,15220.0
+2023-01-01T00:00:00.000,44,Grand Est,Gaz et ND,4663.0
+2022-01-01T00:00:00.000,53,Bretagne,Diesel - hybride NR,884.0
+2020-01-01T00:00:00.000,28,Normandie,Diesel - hybride NR,1253.0
+2024-01-01T00:00:00.000,53,Bretagne,Essence - hybride NR,23044.0
+2019-01-01T00:00:00.000,94,Corse,Electrique et hydrogène,173.0
+2022-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Essence - thermique,47820.0
+2024-01-01T00:00:00.000,94,Corse,Hybride rechargeable,1786.0
+2019-01-01T00:00:00.000,53,Bretagne,Hybride rechargeable,490.0
+2024-01-01T00:00:00.000,94,Corse,Electrique et hydrogène,2572.0
+2019-01-01T00:00:00.000,24,Centre-Val de Loire,Hybride rechargeable,480.0
+2022-01-01T00:00:00.000,76,Occitanie,Electrique et hydrogène,19382.0
+2022-01-01T00:00:00.000,04,La Réunion,Diesel - thermique,5756.0
+2019-01-01T00:00:00.000,02,Martinique,Essence - thermique,12400.0
+2022-01-01T00:00:00.000,01,Guadeloupe,Diesel - hybride NR,242.0
+2024-01-01T00:00:00.000,01,Guadeloupe,Diesel - hybride NR,60.0
+2022-01-01T00:00:00.000,11,Île-de-France,Essence - hybride NR,70423.0
+2023-01-01T00:00:00.000,53,Bretagne,Hybride rechargeable,4616.0
+2022-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Diesel - thermique,9616.0
+2024-01-01T00:00:00.000,52,Pays de la Loire,Essence - thermique,21768.0
+2021-01-01T00:00:00.000,52,Pays de la Loire,Essence - hybride NR,12502.0
+2024-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Electrique et hydrogène,24842.0
+2020-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Essence - thermique,69178.0
+2023-01-01T00:00:00.000,52,Pays de la Loire,Essence - thermique,28633.0
+2021-01-01T00:00:00.000,04,La Réunion,Electrique et hydrogène,2276.0
+2020-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Diesel - hybride NR,2529.0
+2019-01-01T00:00:00.000,06,Mayotte,Diesel - hybride NR,0.0
+2022-01-01T00:00:00.000,24,Centre-Val de Loire,Diesel - thermique,7973.0
+2024-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Essence - hybride NR,66428.0
+2023-01-01T00:00:00.000,52,Pays de la Loire,Hybride rechargeable,5870.0
+2019-01-01T00:00:00.000,32,Hauts-de-France,Hybride rechargeable,2186.0
+2022-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Essence - hybride NR,26031.0
+2021-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Diesel - thermique,40996.0
+2021-01-01T00:00:00.000,28,Normandie,Essence - hybride NR,17971.0
+2024-01-01T00:00:00.000,02,Martinique,Gaz et ND,38.0
+2019-01-01T00:00:00.000,04,La Réunion,Diesel - hybride NR,352.0
+2021-01-01T00:00:00.000,53,Bretagne,Gaz et ND,1694.0
+2021-01-01T00:00:00.000,32,Hauts-de-France,Diesel - hybride NR,6133.0
+2023-01-01T00:00:00.000,76,Occitanie,Hybride rechargeable,11983.0
+2022-01-01T00:00:00.000,94,Corse,Essence - hybride NR,2630.0
+2022-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Diesel - thermique,14199.0
+2021-01-01T00:00:00.000,03,Guyane,Hybride rechargeable,131.0
+2023-01-01T00:00:00.000,76,Occitanie,Gaz et ND,5908.0
+2019-01-01T00:00:00.000,11,Île-de-France,Diesel - hybride NR,2057.0
+2019-01-01T00:00:00.000,06,Mayotte,Gaz et ND,0.0
+2020-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Essence - thermique,66817.0
+2021-01-01T00:00:00.000,28,Normandie,Diesel - hybride NR,2201.0
+2024-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Gaz et ND,4986.0
+2024-01-01T00:00:00.000,01,Guadeloupe,Gaz et ND,43.0
+2023-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Essence - thermique,23294.0
+2023-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Diesel - thermique,23871.0
+2023-01-01T00:00:00.000,32,Hauts-de-France,Electrique et hydrogène,27243.0
+2021-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Diesel - hybride NR,1208.0
+2023-01-01T00:00:00.000,32,Hauts-de-France,Essence - hybride NR,41788.0
+2022-01-01T00:00:00.000,53,Bretagne,Diesel - thermique,10974.0
+2024-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Diesel - thermique,5705.0
+2022-01-01T00:00:00.000,94,Corse,Diesel - hybride NR,126.0
+2020-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Essence - hybride NR,4872.0
+2021-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Essence - hybride NR,8197.0
+2022-01-01T00:00:00.000,02,Martinique,Essence - hybride NR,2041.0
+2021-01-01T00:00:00.000,32,Hauts-de-France,Hybride rechargeable,14992.0
+2019-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Diesel - hybride NR,1517.0
+2024-01-01T00:00:00.000,02,Martinique,Essence - thermique,7981.0
+2022-01-01T00:00:00.000,76,Occitanie,Gaz et ND,4397.0
+2020-01-01T00:00:00.000,53,Bretagne,Hybride rechargeable,2623.0
+2022-01-01T00:00:00.000,52,Pays de la Loire,Diesel - hybride NR,1162.0
+2024-01-01T00:00:00.000,03,Guyane,Hybride rechargeable,120.0
+2024-01-01T00:00:00.000,24,Centre-Val de Loire,Essence - hybride NR,16808.0
+2022-01-01T00:00:00.000,52,Pays de la Loire,Essence - thermique,26213.0
+2019-01-01T00:00:00.000,28,Normandie,Diesel - hybride NR,676.0
+2020-01-01T00:00:00.000,52,Pays de la Loire,Gaz et ND,878.0
+2021-01-01T00:00:00.000,02,Martinique,Gaz et ND,3.0
+2022-01-01T00:00:00.000,52,Pays de la Loire,Gaz et ND,2546.0
+2019-01-01T00:00:00.000,32,Hauts-de-France,Electrique et hydrogène,2981.0
+2020-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Diesel - hybride NR,1705.0
+2019-01-01T00:00:00.000,11,Île-de-France,Hybride rechargeable,5961.0
+2023-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Essence - hybride NR,13332.0
+2020-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Essence - thermique,86206.0
+2020-01-01T00:00:00.000,76,Occitanie,Diesel - hybride NR,1733.0
+2024-01-01T00:00:00.000,94,Corse,Gaz et ND,1734.0
+2022-01-01T00:00:00.000,32,Hauts-de-France,Essence - hybride NR,34251.0
+2019-01-01T00:00:00.000,32,Hauts-de-France,Essence - hybride NR,10671.0
+2019-01-01T00:00:00.000,44,Grand Est,Essence - hybride NR,6713.0
+2021-01-01T00:00:00.000,01,Guadeloupe,Diesel - thermique,2408.0
+2023-01-01T00:00:00.000,53,Bretagne,Diesel - hybride NR,881.0
+2021-01-01T00:00:00.000,53,Bretagne,Essence - hybride NR,10157.0
+2024-01-01T00:00:00.000,11,Île-de-France,Essence - thermique,95100.0
+2024-01-01T00:00:00.000,04,La Réunion,Diesel - thermique,3462.0
+2023-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Diesel - thermique,15797.0
+2020-01-01T00:00:00.000,76,Occitanie,Diesel - thermique,40495.0
+2024-01-01T00:00:00.000,28,Normandie,Gaz et ND,3923.0
+2020-01-01T00:00:00.000,32,Hauts-de-France,Hybride rechargeable,6398.0
+2023-01-01T00:00:00.000,03,Guyane,Diesel - thermique,523.0
+2024-01-01T00:00:00.000,94,Corse,Essence - thermique,14881.0
+2019-01-01T00:00:00.000,44,Grand Est,Diesel - hybride NR,835.0
+2023-01-01T00:00:00.000,03,Guyane,Essence - thermique,3591.0
+2022-01-01T00:00:00.000,94,Corse,Gaz et ND,257.0
+2024-01-01T00:00:00.000,44,Grand Est,Gaz et ND,4292.0
+2024-01-01T00:00:00.000,01,Guadeloupe,Diesel - thermique,1107.0
+2023-01-01T00:00:00.000,44,Grand Est,Electrique et hydrogène,25528.0
+2024-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Diesel - thermique,15894.0
+2019-01-01T00:00:00.000,06,Mayotte,Electrique et hydrogène,5.0
+2022-01-01T00:00:00.000,02,Martinique,Electrique et hydrogène,619.0
+2023-01-01T00:00:00.000,04,La Réunion,Gaz et ND,120.0
+2022-01-01T00:00:00.000,32,Hauts-de-France,Diesel - hybride NR,4510.0
+2019-01-01T00:00:00.000,24,Centre-Val de Loire,Essence - hybride NR,2962.0
+2019-01-01T00:00:00.000,24,Centre-Val de Loire,Gaz et ND,66.0
+2024-01-01T00:00:00.000,11,Île-de-France,Electrique et hydrogène,57794.0
+2023-01-01T00:00:00.000,53,Bretagne,Essence - hybride NR,16033.0
+2022-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Gaz et ND,3948.0
+2021-01-01T00:00:00.000,93,Provence-Alpes-Côte d'Azur,Diesel - hybride NR,2396.0
+2021-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Diesel - hybride NR,2849.0
+2019-01-01T00:00:00.000,75,Nouvelle-Aquitaine,Essence - hybride NR,9195.0
+2019-01-01T00:00:00.000,28,Normandie,Gaz et ND,117.0
+2022-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Diesel - hybride NR,2884.0
+2023-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Gaz et ND,2292.0
+2020-01-01T00:00:00.000,11,Île-de-France,Essence - thermique,139373.0
+2022-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Electrique et hydrogène,7219.0
+2019-01-01T00:00:00.000,03,Guyane,Hybride rechargeable,2.0
+2023-01-01T00:00:00.000,53,Bretagne,Essence - thermique,25856.0
+2020-01-01T00:00:00.000,28,Normandie,Gaz et ND,688.0
+2023-01-01T00:00:00.000,03,Guyane,Electrique et hydrogène,179.0
+2020-01-01T00:00:00.000,24,Centre-Val de Loire,Diesel - hybride NR,742.0
+2021-01-01T00:00:00.000,27,Bourgogne-Franche-Comté,Essence - thermique,25794.0
+2023-01-01T00:00:00.000,02,Martinique,Diesel - hybride NR,71.0
+2020-01-01T00:00:00.000,44,Grand Est,Diesel - hybride NR,2069.0
+2020-01-01T00:00:00.000,01,Guadeloupe,Diesel - hybride NR,89.0
+2019-01-01T00:00:00.000,04,La Réunion,Essence - thermique,16079.0
+2021-01-01T00:00:00.000,44,Grand Est,Electrique et hydrogène,13803.0
+2024-01-01T00:00:00.000,11,Île-de-France,Gaz et ND,5960.0
+2024-01-01T00:00:00.000,04,La Réunion,Gaz et ND,467.0
+2020-01-01T00:00:00.000,04,La Réunion,Diesel - hybride NR,758.0
+2020-01-01T00:00:00.000,06,Mayotte,Essence - thermique,894.0
+2020-01-01T00:00:00.000,01,Guadeloupe,Essence - thermique,8070.0
+2024-01-01T00:00:00.000,52,Pays de la Loire,Essence - hybride NR,28014.0
+2020-01-01T00:00:00.000,52,Pays de la Loire,Hybride rechargeable,3229.0
+2020-01-01T00:00:00.000,01,Guadeloupe,Hybride rechargeable,171.0
+2024-01-01T00:00:00.000,44,Grand Est,Electrique et hydrogène,23986.0
+2020-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Gaz et ND,1979.0
+2021-01-01T00:00:00.000,11,Île-de-France,Diesel - thermique,61111.0
+2019-01-01T00:00:00.000,52,Pays de la Loire,Hybride rechargeable,567.0
+2020-01-01T00:00:00.000,44,Grand Est,Essence - hybride NR,10669.0
+2023-01-01T00:00:00.000,11,Île-de-France,Essence - hybride NR,98880.0
+2023-01-01T00:00:00.000,04,La Réunion,Hybride rechargeable,919.0
+2024-01-01T00:00:00.000,44,Grand Est,Essence - hybride NR,40256.0
+2020-01-01T00:00:00.000,84,Auvergne-Rhône-Alpes,Essence - hybride NR,17321.0
