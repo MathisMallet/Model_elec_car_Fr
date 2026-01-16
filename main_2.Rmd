@@ -1,0 +1,386 @@
+---
+title: "elec_car_model"
+author: "Mathis Mallet"
+date: "2026-01-08"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(dplyr)
+library(readxl)
+library(data.table)
+library(tidyr)
+library(janitor)
+```
+
+
+## Data treatment
+
+### Import
+```{r}
+car_df_path = "Data/parc_vp_france_2024.xlsx"
+car_df_raw <- read_excel(car_df_path,sheet="Crit'Air" ,range = "A24:O32", col_names =c("category", 2011:2024))
+
+fuel_df_path = "Data/export-fuel-data-result-all.xlsx"
+fuel_df_raw <- read_excel(fuel_df_path, sheet="Carburants - annuel TTC")
+
+elec_df_path = "Data/statistiques_sdes_prix_electricite_france_ue_2024_donnees.xlsx"
+elec_df_raw <- read_excel(elec_df_path, sheet="Graphique_1", range = "A2:S5")
+
+wealth_df_path = "Data/T_7401.xlsx"
+wealth_df_raw <- read_excel(wealth_df_path, sheet="T_7401", range = "BM134:BZ134",col_names = c("2011", 2012:2024))
+
+pop_data_path = "Data/Pop1janv_grages.xlsx"
+pop_df_raw <- read_excel(pop_data_path, sheet="FR", range = "A4:H39") %>%
+  rename_at("...1", ~"year")
+
+```
+
+### Transforms
+#### car_df
+```{r}
+car_df <- transpose(car_df_raw)
+
+rownames(car_df) <- colnames(car_df_raw)
+colnames(car_df) <- rownames(car_df_raw)
+
+car_df <- car_df %>% 
+  row_to_names(row_number = 1) %>%
+  mutate(year = as.numeric(rownames(car_df)[-1])) %>%
+  mutate_all(as.numeric)
+  
+```
+
+```{r}
+summary(car_df)
+```
+
+#### fuel_df
+
+```{r}
+summary(fuel_df_raw)
+```
+
+
+```{r}
+fuel_df <- fuel_df_raw %>%
+  rowwise() %>%
+  mutate(fuel_price = 
+           mean(c_across(c(
+             'Gazole €/l ttc', 
+             'Super sans plomb 95 €/l ttc', 
+             "Super sans plomb 98 €/l ttc")))) %>%
+  rename_at("Date", ~"year")
+```
+
+#### elec_df
+
+```{r}
+summary(elec_df_raw)
+```
+
+
+```{r}
+elec_df <- elec_df_raw %>%
+      filter(!row_number() %in% c(1, 2)) %>%
+      rename_at("Euros/MWh", ~"type") %>%
+      pivot_longer(
+        cols = -type,
+        names_to = "year",
+        values_to = "elec_price"
+  ) %>%
+  select(-type) %>%
+  mutate(year = as.numeric(year))
+```
+
+#### wealth
+
+```{r}
+wealth_df <- transpose(wealth_df_raw) %>%
+  mutate(year = as.numeric(colnames(wealth_df_raw))) %>%
+  rename_at("V1", ~"income")
+```
+
+```{r}
+summary(wealth_df)
+```
+
+#### Population
+```{r}
+summary(pop_df_raw)
+```
+
+```{r}
+pop_df <- pop_df_raw %>%
+  mutate(active_pop = rowSums(across(c("De 20 à 59 ans", "De 60 à 64 ans", "De 65 à 74 ans", "75 ans ou plus")))) %>%
+  mutate(
+    year = replace(year, year == "2023 (p)", "2023"),
+    year = replace(year, year == "2024 (p)", "2024"),
+    year = replace(year, year == "2025 (p)", "2025"),
+    year = as.numeric(year)
+    )
+```
+
+```{r}
+summary(pop_df)
+```
+
+
+
+#### combine
+
+```{r}
+df <- car_df %>% 
+  left_join(elec_df, by = "year") %>%
+  left_join(fuel_df, by = "year") %>%
+  left_join(wealth_df, by = "year") %>%
+  left_join(pop_df, by="year")
+```
+
+```{r}
+summary(df)
+```
+
+
+#### construct variables
+```{r}
+
+df <- df %>%
+  mutate(ln_car = log(Particulier),
+         ln_fuel_price = log(fuel_price),
+         income_per_capita = income/Total,
+         ln_income_per_capita = log(income_per_capita),
+         ln_active_pop = log(active_pop)
+         )
+```
+
+
+#### lagged df
+```{r}
+df_lag <- df %>% mutate(lag_ln_car = lag(ln_car))
+df_lag <- df_lag[-1,]
+```
+
+
+#### first models
+
+```{r}
+model <- lm(
+  ln_car ~ ln_income_per_capita  + ln_active_pop,
+  data = df
+)
+
+summary(model)
+```
+```{r}
+lag_model <- lm(
+  ln_car ~ lag_ln_car + ln_income_per_capita + ln_active_pop,
+  data = df_lag
+)
+
+summary(lag_model)
+```
+```{r}
+trend_model <- lm(
+  ln_car ~ year + ln_income_per_capita + ln_fuel_price + ln_active_pop, 
+  data = df
+)
+
+summary(trend_model)
+```
+```{r}
+trend_model <- lm(
+  ln_car ~ year + ln_income_per_capita, 
+  data = df
+)
+
+summary(trend_model)
+```
+
+
+################################################ Add a model in Diff
+
+# proj
+```{r}
+library(boot)
+
+# Function to obtain R-squared
+rsq <- function(formula, data, indices) {
+  d <- data[indices, ]      # bootstrap sample
+  fit <- lm(formula, data = d)
+  return(summary(fit)$r.squared)
+}
+
+# Run bootstrapping with 1000 replications
+results <- boot(
+  data = df_lag,
+  statistic = rsq,
+  R = 1000,
+  formula = ln_car ~ year + ln_income_per_capita
+)
+
+# View results
+results
+
+# Plot bootstrap distribution
+plot(results)
+
+# 95% confidence interval (BCa)
+boot.ci(results, type = "bca")
+```
+```{r}
+df_traj_stable <- df
+for (year in c(2025:2050)){
+  last_row <- tail(df_traj_stable, n=1)
+  last_row <- last_row %>% mutate(across(
+    .cols = -c(ln_income_per_capita),
+    .fns  = ~ NaN
+  ))
+  last_row$year = year 
+  last_row$ln_income_per_capita = last_row$ln_income_per_capita + log(1.03)
+  df_traj_stable <- rbind(df_traj_stable, last_row)
+}
+```
+
+```{r}
+boot_path <- function(data, indices, traj) {
+  
+  d <- data[indices, ]
+  
+  fit <- lm(
+    ln_car ~ year + ln_income_per_capita,
+    data = d
+  )
+  
+  beta <- coef(fit)
+  H <- nrow(traj)
+  
+  Y_hat <- numeric(H)
+  
+  for (h in 1:H) {
+    Y_hat[h] <-
+      beta[1] +
+      beta["year"] * traj$year[h] +
+      beta["ln_income_per_capita"] * traj$ln_income_per_capita[h]
+    
+    Y_prev <- Y_hat[h]  # update lag
+  }
+  
+  return(Y_hat)
+}
+
+```
+
+```{r}
+
+set.seed(46)
+
+boot_results <- boot(
+  data = df,
+  statistic = boot_path,
+  R = 1000,
+  traj = df_traj_stable
+)
+
+```
+
+```{r}
+proj_ci <- apply(
+  boot_results$t,
+  2,
+  quantile,
+  probs = c(0.01, 0.5, 0.99)
+)
+
+proj_ci <- t(proj_ci)
+colnames(proj_ci) <- c("lower", "median", "upper")
+```
+
+```{r}
+H <- nrow(df_traj_stable)
+
+plot(
+  1:H, proj_ci[, "median"],
+  type = "l",
+  lwd = 2,
+  ylim = range(proj_ci),
+  xlab = "Horizon",
+  ylab = "ln_car",
+  main = "Bootstrap Dynamic Projection"
+)
+
+polygon(
+  c(1:H, rev(1:H)),
+  c(proj_ci[, "lower"], rev(proj_ci[, "upper"])),
+  col = rgb(0, 0, 1, 0.2),
+  border = NA
+)
+
+```
+
+```{r}
+real_y = df$ln_car
+real_H = length(real_y)
+H <- nrow(df_traj_stable)
+
+ylim_all <- range(
+  proj_ci[, c("lower", "upper")],
+  real_y,
+  na.rm = TRUE
+)
+
+plot(
+  1:H, proj_ci[, "median"],
+  type = "n",                     # set up canvas first
+  ylim = ylim_all,
+  xlab = "Horizon",
+  ylab = "ln_car",
+  main = "Bootstrap Dynamic Projection with Real Data"
+)
+
+# Fan chart (confidence band)
+polygon(
+  c(1:H, rev(1:H)),
+  c(proj_ci[, "lower"], rev(proj_ci[, "upper"])),
+  col = rgb(0.2, 0.4, 0.8, 0.25),
+  border = NA
+)
+
+# Median projection
+lines(
+  1:H, proj_ci[, "median"],
+  lwd = 2,
+  col = "blue"
+)
+
+# Real observed data
+lines(
+  1:real_H, real_y,
+  lwd = 2,
+  col = "black",
+  lty = 1
+)
+
+# Optional: points for real data
+points(
+  1:real_H, real_y,
+  pch = 16,
+  cex = 0.7,
+  col = "black"
+)
+
+# Legend
+legend(
+  "topleft",
+  legend = c("Median projection", "90% CI", "Observed data"),
+  lwd = c(2, NA, 2),
+  pch = c(NA, 15, 16),
+  col = c("blue", rgb(0.2, 0.4, 0.8, 0.25), "black"),
+  bty = "n"
+)
+```
+
