@@ -51,7 +51,8 @@ colnames(car_df) <- rownames(car_df_raw)
 car_df <- car_df %>% 
   row_to_names(row_number = 1) %>%
   mutate(year = as.numeric(rownames(car_df)[-1])) %>%
-  mutate_all(as.numeric)
+  mutate_all(as.numeric) %>%
+  rename_at("Crit'Air E", ~"critairE")
   
 ```
 
@@ -154,14 +155,20 @@ df <- df %>%
          ln_fuel_price = log(fuel_price),
          income_per_capita = income/Total,
          ln_income_per_capita = log(income_per_capita),
-         ln_active_pop = log(active_pop)
+         ln_active_pop = log(active_pop),
+         ev_share = critairE / Particulier,
+         logit_ev_share = log(ev_share / (1 - ev_share)),
+         fuel_elec_p_ratio = fuel_price / elec_price,
+         ln_fuel_elec_p_ratio = log(fuel_price / elec_price)
          )
 ```
 
 
 #### lagged df
 ```{r}
-df_lag <- df %>% mutate(lag_ln_car = lag(ln_car))
+df_lag <- df %>% 
+  mutate(lag_ln_car = lag(ln_car),
+         lag_logit_ev_share = lag(logit_ev_share))
 df_lag <- df_lag[-1,]
 ```
 
@@ -205,33 +212,7 @@ summary(trend_model)
 ################################################ Add a model in Diff
 
 # proj
-```{r}
-library(boot)
 
-# Function to obtain R-squared
-rsq <- function(formula, data, indices) {
-  d <- data[indices, ]      # bootstrap sample
-  fit <- lm(formula, data = d)
-  return(summary(fit)$r.squared)
-}
-
-# Run bootstrapping with 1000 replications
-results <- boot(
-  data = df_lag,
-  statistic = rsq,
-  R = 1000,
-  formula = ln_car ~ year + ln_income_per_capita
-)
-
-# View results
-results
-
-# Plot bootstrap distribution
-plot(results)
-
-# 95% confidence interval (BCa)
-boot.ci(results, type = "bca")
-```
 ```{r}
 df_traj_stable <- df
 for (year in c(2025:2050)){
@@ -382,5 +363,30 @@ legend(
   col = c("blue", rgb(0.2, 0.4, 0.8, 0.25), "black"),
   bty = "n"
 )
+```
+## first share models
+
+```{r}
+share_model <- lm(
+  logit_ev_share ~ ln_income_per_capita + ln_fuel_elec_p_ratio,
+  data = df
+)
+
+summary(share_model)
+```
+
+
+```{r}
+share_model <- lm(
+  logit_ev_share ~ ln_income_per_capita + year,
+  data = df
+)
+
+summary(share_model)
+
+```
+
+```{r}
+
 ```
 
